@@ -14,7 +14,9 @@ export function activate(context: vscode.ExtensionContext) {
                 vscode.window.showErrorMessage(`Developer environment not set: ${error.message}`);
             }
         }),
-        vscode.commands.registerCommand('devcmd.clearEnvironment', context.environmentVariableCollection.clear)
+        vscode.commands.registerCommand('devcmd.clearEnvironment', () => {
+            context.environmentVariableCollection.clear();
+        })
     );
 }
 

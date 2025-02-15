@@ -1,14 +1,23 @@
 {
   "name": "devcmd",
-  "displayName": "Visual Studio Developer Environment",
-  "description": "",
-  "version": "0.5.0",
+  "displayName": "Developer Command Prompt for VS Code",
+  "description": "Configure your terminal to work like a Visual Studio Developer Command Prompt",
+  "icon": "assets/icon.png",
+  "version": "0.5.1",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "keywords": [
+    "C++",
+    "Visual Studio",
+    "Developer Command Prompt",
+    "vcvarsall",
+    "devcmd"
+  ],
+  "publisher": "bobbrow",
   "repository": {
     "type": "git",
     "url": "https://github.com/bobbrow/devcmd"
